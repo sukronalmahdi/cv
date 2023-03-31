@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB CV SUKRON</title>
+  </head>
+  <body>
+    <div class="left-container">
+      <div class="foto-kontak">
+        <img src="download (4).jpg" class="foto" />
+        <h1>Contact Me :</h1>
+        <a href="mailto:sukronallmahdii123@gmail.com">
+          <button type="button" class="button">Email</button>
+        </a>
+        <br /><br />
+        <a href="">
+          <button type="button" class="button">WhatsApp</button>
+        </a>
+      </div>
+    </div>
+    <div class="right-container">
+      <div class="top-bar">
+        <a href="" class="title">Curriculum vitae</a>
+        <div class="menu">
+          <a href="#about" class="menu1">About </a>
+          <a href="#gallery" class="menu1">Gallery</a>
+          <a href="#contact" class="menu1">Contact</a>
+        </div>
+      </div>
+      <div id="profile">
+        <h1>I'm SUKRON</h1>
+        <h2>Profesional Football</h2>
+      </div>
+      <div id="about">
+        <h2 class="about">About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque excepturi expedita fugit incidunt debitis minus ut assumenda tempore repellat obcaecati placeat iste eligendi modi quam ratione sunt, voluptatibus dolor eveniet?</p>
+        <p>Nama: Sukron</p>
+        <p>Religion: Islam</p>
+        <p>Umur: 24 Tahun</p>
+        <p>Alamat: Ratamba, Banjarnegara</p>
+        <p>Universitas: Universitas Sains Al-Qur'an</p>
+      </div>
+      <div id="gallery">
+        <h2 id="hobi">Gallery</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cumque assumenda sit dolorum autem est placeat ullam sed fuga enim, odit dolores eius iste dolore nesciunt totam nihil! A, sint.</p>
+        <p>Hobi saya</p>
+        <ol>
+          <li>Football <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corrupti consectetur quibusdam voluptas autem sapiente tempore molestias nostrum cum nesciunt. In quidem repudiandae animi qui corporis delectus molestias sed eveniet.</p></li>
+          <li>Ngoding <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolor earum, aliquam voluptas ut ipsum nesciunt. Quisquam architecto quae rem explicabo! Vitae, possimus aut consectetur vero officiis doloremque similique labore?</p></li>
+          <li>Belajar <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolor earum, aliquam voluptas ut ipsum nesciunt. Quisquam architecto quae rem explicabo! Vitae, possimus aut consectetur vero officiis doloremque similique labore?</p></li>
+          <li>Bermusik <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolor earum, aliquam voluptas ut ipsum nesciunt. Quisquam architecto quae rem explicabo! Vitae, possimus aut consectetur vero officiis doloremque similique labore?</p></li>
+        <ol>
+      </div>
+      <div id="contact">
+        <h1>Contact</h1>
+        <p><b>WhatsApp:</b>  085773929876</p>
+        <p><b> Email:</b><a href="mailto:">sukronallmahdii123@gmail.com</a></p>
+        <p><b> Address:</b>Ratamba. Pejawaran.Banjarnegara</p>
+      </div>
+
+      <footer class="footer">
+        <p><i><b> @Ratamba, 31 Maret 2023</b></i> </p>
+      </footer>
+    </div>
+    <script>
+      const menu = document.getElementsByClassName("menu1")[2];
+      const left = document.getElementsByClassName("left-container")[0];
+      menu.addEventListener("mouseenter", function () {
+        left.style.backgroundColor='red';
+      });
+      menu.addEventListener("mouseleave", function () {
+        left.style.backgroundColor='lightblue';
+      });
+    </script>
+  </body>
+</html>

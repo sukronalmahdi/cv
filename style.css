@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.left-container {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  background-color: aqua;
+}
+.foto-kontak {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+}
+.foto {
+  width: 50%;
+  border-radius: 50px;
+}
+.button {
+  width: 50%;
+  height: 30px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+h1 {
+  font-size: 20px;
+}
+.right-container {
+  position: absolute;
+  left: 200px;
+}
+.top-bar {
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+}
+.top-bar {
+  position: fixed;
+  width: 160vh;
+}
+
+.menu {
+  float: right;
+  padding-right: 50px;
+}
+.menu1 {
+  font-size: 1.1rem;
+  padding: 0 15px;
+}
+.menu1:hover {
+  color: red;
+}
+.title {
+  font-style: italic;
+  font-size: 1.3rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#profile {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+#about {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#gallery {
+  padding-top: 200px;
+  padding-left: 100px;
+}
+#contact {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.footer {
+  text-align: center;
+  padding: 200px 100px;
+}
+.red {
+  background-color: red;
+}
+li {
+  line-height: 200%;
+}
